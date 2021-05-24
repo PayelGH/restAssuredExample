@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 
-                             //AUTOMATING API REQUESTS WITH EXAMPLES with fake api
+                             //AUTOMATING API REQUESTS WITH EXAMPLES
 public class AutomationExamples {
     @Test
     public void Test1_Get() { //to get response
