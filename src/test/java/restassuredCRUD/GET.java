@@ -1,4 +1,4 @@
-package restassured1;
+package restassuredCRUD;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -1,4 +1,4 @@
-package restassured1;
+package restassuredCRUD;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
