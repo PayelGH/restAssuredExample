@@ -1,4 +1,4 @@
-package restassured1;
+package restassuredCRUD;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -6,6 +6,7 @@ import static io.restassured.RestAssured.*;
 import io.restassured.response.Response;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
+import io.restassured.http.ContentType;
 
 public class GET {
 	@Test
@@ -21,7 +22,7 @@ public class GET {
 		System.out.println(response1.asString()); //to print the response
 		System.out.println(response1.getStatusLine()); 
 		System.out.println(response1.getHeader("content-type")); 
-		System.out.println(response1.getTime()); 
+		System.out.println(response1.getTime());
 		
 		//how to use assertions:example validate status code 
 		int statusCode= response1.getStatusCode();
